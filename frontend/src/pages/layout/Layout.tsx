@@ -33,7 +33,6 @@ const Layout = () => {
 
     return (
         <div className={styles.layout}>
-            <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Stack horizontal verticalAlign="center">
                         <img
@@ -90,7 +89,7 @@ const Layout = () => {
                     </div>
                 </Stack>
             </Dialog>
-        </div>
+        </div >
     );
 };
 
